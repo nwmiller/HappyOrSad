@@ -60,10 +60,11 @@ body, html {
 	-moz-transition: background-color 500ms ease;
 	-o-transition: background-color 500ms ease;
 	transition: background-color 500ms ease;
+    box-sizing: border-box;
 }
 .happy-side {
 	background-color: #5BC15B;
-	/*border-right: 2px solid #000;*/
+	border-right: 2px solid #000;
 }
 .happy-side:hover {
 	background-color: #78FF78;
@@ -73,7 +74,7 @@ body, html {
 }
 .sad-side {
 	background-color: #7757BF;
-	/*border-left: 2px solid #000;*/
+	border-left: 2px solid #000;
 }
 .sad-side:hover {
 	background-color: #9F74FF;
