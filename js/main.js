@@ -18,13 +18,13 @@ $(".sad-side").hover(
 
 $(".happy-side").click(
 	function() {
-		window.location.href="/happy.html";
+		window.location.href="/HappyOrSad/happy.html";
 	}
 );
 
 $(".sad-side").click(
 	function() {
-		window.location.href="/sad.html";
+		window.location.href="/HappyOrSad/sad.html";
 		
 	}
 );
