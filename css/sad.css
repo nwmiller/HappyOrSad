@@ -1,0 +1,19 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #7757BF;
+}
+.sad-container {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+.sad-icon {
+	height: 80%;
+	padding-top: 25px;
+}
+.sad-resp {
+	font-size: 6em;
+	/*font-family: 'Chewy', cursive;*/
+	color: #fff;
+}
