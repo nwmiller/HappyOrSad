@@ -29,7 +29,7 @@ body, html {
 	text-shadow: 4px 4px #000;
 }
 .title {
-	font-size: 10em;
+	font-size: 4em;
 	line-height: 150px;
 	margin: 0;
 	padding: 10px;
@@ -55,7 +55,7 @@ body, html {
 	height: 100%;
 	text-align: center;
 	float: left;
-	padding-top: 125px;
+	padding-top: 150px;
 	-webkit-transition: background-color 500ms ease;
 	-moz-transition: background-color 500ms ease;
 	-o-transition: background-color 500ms ease;
@@ -69,7 +69,7 @@ body, html {
 	background-color: #78FF78;
 }
 .happy-choice, .sad-choice {
-	font-size: 5em;
+	font-size: 3em;
 }
 .sad-side {
 	background-color: #7757BF;
@@ -79,8 +79,33 @@ body, html {
 	background-color: #9F74FF;
 }
 
-@media only screen and (max-width: 800px) {
-	.title {
-		font-size: 8em;
-	}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .title {
+        font-size: 6em;
+    }
+    .happy-choice, .sad-choice {
+	   font-size: 4em;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .title {
+        font-size: 8em;
+    }
+    .happy-choice, .sad-choice {
+	   font-size: 5em;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .title {
+        font-size: 10em;
+    }
+    .happy-choice, .sad-choice {
+	   font-size: 6em;
+    }
 }
